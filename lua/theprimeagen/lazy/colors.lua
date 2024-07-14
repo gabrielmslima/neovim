@@ -1,7 +1,7 @@
 function ColorMyPencils(color)
     color = color or "catppuccin"
     vim.cmd.colorscheme(color)
-    vim.cmd("hi LineNr guifg=#ffffff")
+    vim.cmd("hi LineNr guifg=#5c5f77 guibg=NONE")
 end
 
 return {
